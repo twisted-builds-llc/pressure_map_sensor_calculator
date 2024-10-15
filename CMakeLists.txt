@@ -21,7 +21,7 @@ set(PROJECT_SOURCES
 )
 
 set(HEADERS
-    CustomDoubleSpinBox.h
+    #CustomDoubleSpinBox.h
     mainwindow.h
 )
 
@@ -36,6 +36,7 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
         aboutus.h aboutus.cpp aboutus.ui
         images.qrc
         CustomDoubleSpinBox.h
+        resources.qrc
     )
 # Define target properties for Android with Qt 6 as:
 #    set_property(TARGET Qt_Learning_app_1 APPEND PROPERTY QT_ANDROID_PACKAGE_SOURCE_DIR
